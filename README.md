@@ -4,25 +4,26 @@
 
 1. **Web Scraping from fbref.com**
    - In the first code, I performed web scraping from the [fbref.com](https://fbref.com/it/) website.
-   - Utilizing BeautifulSoup, I assembled the DataFrame `matches_21_24.csv`.
+   - Using BeautifulSoup, I assembled the DataFrame `matches_21_24.csv`.
    - Extracted relevant statistics based on my knowledge of football.
-   - All this can be found in the script 'scraping.ipynb'
+   - All this and and more details can be found in the script 'scraping.ipynb'
 
-2. **Principal Component Analysis**
+2. **Principal Component Analysis PCA**
    - Some statistics are less relevant than others. An interesting tool to reduce the dimensionality of some variables is PCA. I chose the less relevant statistics and did a PCA on them.
-     More about pca on [1]. 
-   - from [fifaratings.com](https://www.fifaratings.com/) I retrieved the ratings for the teams I will use in part three 
+   - More about pca on [1]. 
+   - From [fifaratings.com](https://www.fifaratings.com/) I retrieved the ratings for the teams I will use in part three 
    - after PCA the new DataFrame is `df_pca.csv`.
-   - All this can be found in the script 'pca.ipynb'
+   - All this and and more details can be found in the script 'pca.ipynb'
      
 3. **Model : Random Forest**
-   - I have created other indices that I will use as predictors in the random forest, taking my cue from [2] and [3] . The most interesting index is 'form', defined in the previous article.
+   - I have created other indices that I will use as predictors in the random forest, taking my cue from [2] and [3] . The most interesting index is 'form', defined in the previous article [2].
      Also in the previous article, it is mentioned that goal difference is a relevant predictor.
    - All statistics of a given match entering in random forest are known before each match. So I used for example the average of the expected goals of the previous 3 matches for each team for each match. 
-   - After adjusting the parameters separately, I used the best ones to train the algorithm to an accuracy of 70% circa.
+   - After adjusting the parameters separately, I used the best ones to train the algorithm to an accuracy of 68%.
    - More about Random Forest on [4] and [5].
    - The roc curve allows me to find the best threshold [6].
-   - Finally, a simple analysis of the most significant parameters 
+   - Finally, a simple analysis of the most significant parameters
+   - All this and and more details can be found in the script'model.ipynb' 
 
 
 ## How to Run
