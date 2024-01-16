@@ -10,7 +10,7 @@
 
 2. **Principal Component Analysis**
    - Some statistics are less relevant than others. An interesting tool to reduce the dimensionality of some variables is PCA. I chose the less relevant statistics and did a PCA on them.
-   - more about pca on [1]
+     More about pca on [1]. 
    - from [fifaratings.com](https://www.fifaratings.com/) I retrieved the ratings for the teams I will use in part three 
    - after PCA the new DataFrame is `df_pca.csv`.
    - All this can be found in the script 'pca.ipynb'
@@ -18,6 +18,7 @@
 3. **Model : Random Forest**
    - I have created other indices that I will use as predictors in the random forest, taking my cue from [2] and [3] . The most interesting index is 'form', defined in the previous article.
      Also in the previous article, it is mentioned that goal difference is a relevant predictor.
+   - All statistics of a given match entering in random forest are known before each match. So I used for example the average of the expected goals of the previous 3 matches for each team for each match. 
    - After adjusting the parameters separately, I used the best ones to train the algorithm to an accuracy of 70% circa.
    - More about Random Forest on [4] and [5].
    - The roc curve allows me to find the best threshold [6].
@@ -25,6 +26,19 @@
 
 
 ## How to Run
+## Project Setup
+
+To follow this project, please ensure you have the following installed locally:
+
+  - [JupyterLab](https://jupyter.org/)
+  - [Python 3.8+](https://www.python.org/downloads/)
+  - Python packages:
+  - [pandas](https://pandas.pydata.org/)
+  - [requests](https://docs.python-requests.org/)
+  - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+  - [scikit-learn](https://scikit-learn.org/stable/)
+  - [matplotlib](https://matplotlib.org/)
+  - [seaborn](https://seaborn.pydata.org/)
 
 
 ## Bibliography
