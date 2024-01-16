@@ -27,10 +27,17 @@
 ## How to Run
 
 
-**Bibiography**
-[1] Holland, Steven M. "Principal components analysis (PCA)." Department of Geology, University of Georgia, Athens, GA 30602 (2008): 2501.
-[2] Baboota, Rahul, and Harleen Kaur. "Predictive analysis and modelling football results using machine learning approach for English Premier League." International Journal of Forecasting 35.2 (2019): 741-755.
-[3] Rodrigues, Fátima, and Ângelo Pinto. "Prediction of football match results with Machine Learning." Procedia Computer Science 204 (2022): 463-470.
-[4] Chen, Xi, and Hemant Ishwaran. "Random forests for genomic data analysis." Genomics 99.6 (2012): 323-329
-[5] Cutler, Adele, D. Richard Cutler, and John R. Stevens. "Random forests." Ensemble machine learning: Methods and applications (2012): 157-175.
-[6] Hoo, Zhe Hui, Jane Candlish, and Dawn Teare. "What is an ROC curve?." Emergency medicine journal (2017).
+## Bibliography
+
+1. Holland, Steven M. "Principal components analysis (PCA)." Department of Geology, University of Georgia, Athens, GA 30602 (2008): 2501.
+
+2. Baboota, Rahul, and Harleen Kaur. "Predictive analysis and modelling football results using machine learning approach for English Premier League." International Journal of Forecasting 35.2 (2019): 741-755.
+
+3. Rodrigues, Fátima, and Ângelo Pinto. "Prediction of football match results with Machine Learning." Procedia Computer Science 204 (2022): 463-470.
+
+4. Chen, Xi, and Hemant Ishwaran. "Random forests for genomic data analysis." Genomics 99.6 (2012): 323-329.
+
+5. Cutler, Adele, D. Richard Cutler, and John R. Stevens. "Random forests." Ensemble machine learning: Methods and applications (2012): 157-175.
+
+6. Hoo, Zhe Hui, Jane Candlish, and Dawn Teare. "What is an ROC curve?." Emergency medicine journal (2017).
+
